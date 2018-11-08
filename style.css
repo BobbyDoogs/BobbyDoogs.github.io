@@ -2,6 +2,15 @@ body {
   margin-top: 25px;
   background-image: url(YellowPaper.jpg);
   background-size: cover;
+
+/*No highlighting*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+                                  
 }
 
 h1 {
@@ -21,6 +30,7 @@ li {
   font-family: 'Share Tech Mono', monospace;
   font-size: 150%;
   margin-top: 10px;
+
 }
 
 .done {
@@ -30,5 +40,9 @@ li {
 #first {
   font-style: oblique;
   font-variant: small-caps;
+}
+
+li > button {
+  margin-left: 100px;
 }
 
