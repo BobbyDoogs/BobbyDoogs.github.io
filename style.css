@@ -1,7 +1,6 @@
 body {
   margin-top: 25px;
-  background-image: url(YellowPaper.jpg);
-  background-size: cover;
+  background-image: linear-gradient(to right, rgb(255, 255, 128), rgb(255, 255, 0));
 
 /*No highlighting*/
   -webkit-touch-callout: none;
@@ -10,8 +9,8 @@ body {
   -moz-user-select: none; 
   -ms-user-select: none; 
   user-select: none; 
-                                  
 }
+                                
 
 h1 {
   font-family: 'Alfa Slab One', cursive;
@@ -27,7 +26,7 @@ h1 {
 }
 
 li {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 150%;
   margin-top: 10px;
 
