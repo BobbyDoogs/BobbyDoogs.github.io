@@ -1,0 +1,34 @@
+body {
+  margin-top: 25px;
+  background-image: url(YellowPaper.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 200%;
+  border: 3px solid;
+  padding: 5px;
+  border-radius: 5px;
+  -moz-box-shadow:4px 4px 5px #888888;
+  -ms-box-shadow: 4px 4px 5px #888888;
+  -webkit-box-shadow: 4px 4px 5px #888888;
+  -o-box-shadow: 4px 4px 5px #888888;
+  box-shadow: 4px 4px 5px #888888;
+}
+
+li {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 150%;
+  margin-top: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+#first {
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
